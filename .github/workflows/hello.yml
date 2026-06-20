@@ -1,11 +1,11 @@
 # Workflow
 
 # Workflow (No indentation require for naming the workflow)
-name: Hello
+  name: Hello
 
 #on tells when the workflow should run (Give indentation)
-on:
-  workflow_dispatch:
+  on:
+    workflow_dispatch:
 # Jobs
 # Should be inside the workflow
 
