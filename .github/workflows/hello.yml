@@ -12,17 +12,17 @@
 #Job tells what the workflow should do, there can be one or more than one jobs, hence we write jobs
 #Jobs is an object  so needs indentation
 
-  Jobs:
+  jobs:
 #1st Job (give indentation)
    say-hello:
 
  #Creats an Ephermal container with ubuntu running
-  runs on: ubuntu latest
+      runs-on: ubuntu-latest
   #that ephermal container will have steps to execute, hence name those steps
  
    steps:
-  -name: Say hello to everyone
-  run: echo "Hello Dosto"
+    - name: Say hello to everyone
+        run: echo "Hello Dosto"
 # Steps
 
 # Should be insite the job
